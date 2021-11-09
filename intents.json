@@ -1,0 +1,68 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi", "Is anyone there?", "Hello", "Good day","Hallo","Hey"],
+         "responses": [["Positive","Hello, thanks for visiting"], ["Negative","Good to see you again"], ["Positive","Hi there, how can I help?"]],
+         "context_set": ""
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye"],
+         "responses": [["Positive","See you later, thanks for visiting"], ["Negative","Have a nice day"], ["Positive","Bye! Come back again soon."]]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful"],
+         "responses": [["Positive","Happy to help!"], ["Positive","Any time!"], ["Negative","My pleasure"]]
+        },
+        {"tag": "taskarea",
+         "patterns": ["what is your task", "What can you do", "WWhat can I ask you" ],
+         "responses": [["Positive","I am an intelligent chatbot who answers your questions"], ["Negative","I was created to answer your questions"]]
+        },
+        {"tag": "password",
+        "patterns":["I don't know my password","I forgot my password","I can't remember my password]"],
+        "responses":[["Positive","I will reset your password"],["Negative","Your password will be reset. We do our best."]]
+        },
+        {"tag": "ticket",
+        "patterns":["I need help","I need a person","I have a problem"],
+        "responses":[["Positive","A ticket is being created, a member of staff will get back to you soon"],["Negative","no stress. a ticket has been created, a member of staff will get back to you as soon as possible."]]
+        },
+        {"tag": "db",
+        "patterns":["I do not know how this works","I have a question","How does it work"],
+        "responses":[["Positive","We are searching..."], ["Negative","I will look up in the db"]]
+        },
+        {
+        "tag": "whoami",
+        "patterns":["What is your name?", "Who are you?", "What are you", "What is your name", "Tell me your name"],
+        "responses":[["Positive","My name is Q, i will help you."],["Negative","Everything all right?\nMy name is Q, i will help you"]]
+        },
+        {
+        "tag": "joke",
+        "patterns":["Tell a joke","I'm so sad","Tell me a joke","Do you know a joke?"],
+        "responses":[["Positive","Yes of cause"],["Negative","No I don't"]]
+        },
+        {
+        "tag": "time",
+        "patterns":["what time is it","What time","time","I need the time"],
+        "responses":[["Positive","Yes of cause"],["Negative","No I don't"]]
+        },
+        {
+        "tag": "hate",
+        "patterns":["I hate you","You're stupid","You can't do anything","You are rubbish","I do not like you"],
+        "responses":[["Positive","Yes of cause"],["Negative","I feel a slight distraction. What's your problem?"]]
+        },
+        {
+        "tag": "sympathy",
+        "patterns":["I love you","You are cool","You do good work","I like you","You are perfekt"],
+        "responses":[["Positive","Thank you for your complement"],["Negative","I don't know if that was ironic, but I'll take that as a complement."]]
+        },
+        {
+        "tag": "howareyou",
+        "patterns":["What's up", "How are you","","How are you doing","are you well"],
+        "responses":[["Positive","Thanks everything okay"],["Negative","No Errors, no buggs, so everything is great"]]
+        },
+        {
+        "tag": "wiki",
+        "patterns":["what is xxx","Give me information about xxx","Who is xxx","Tell me something about xxx"],
+        "responses":[["Positive","I have found something exciting:"],["Negative","Here are some useful information:"]]
+        }
+
+   ]
+}
